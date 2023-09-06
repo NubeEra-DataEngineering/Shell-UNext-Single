@@ -13,8 +13,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "emp.txt",
-				"folderPath": "input",
+				"fileName": "iris.csv",
 				"fileSystem": "container1"
 			},
 			"columnDelimiter": ",",
