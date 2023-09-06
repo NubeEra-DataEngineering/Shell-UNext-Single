@@ -202,6 +202,9 @@
 					"referenceName": "AzureStorageLinkedService",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "DSV1"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -236,6 +239,9 @@
 					"referenceName": "AzureStorageLinkedService",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "DSV1"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -263,6 +269,9 @@
 					"referenceName": "AzureStorageLinkedService",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "WizardBasedIngest"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -289,6 +298,9 @@
 				"linkedServiceName": {
 					"referenceName": "AzureStorageLinkedService",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "WizardBasedIngest"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
