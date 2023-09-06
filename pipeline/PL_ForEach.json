@@ -12,7 +12,22 @@
 						"value": "@variables('DataArray')",
 						"type": "Expression"
 					},
-					"isSequential": "true"
+					"isSequential": "true",
+					"activities": [
+						{
+							"name": "Execute Pipeline1",
+							"type": "ExecutePipeline",
+							"dependsOn": [],
+							"userProperties": [],
+							"typeProperties": {
+								"pipeline": {
+									"referenceName": "PL_Array",
+									"type": "PipelineReference"
+								},
+								"waitOnCompletion": true
+							}
+						}
+					]
 				}
 			}
 		],
